@@ -1,0 +1,16 @@
+package com.example.springbootrestdemo;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class SpringBootRestDemoApplication {
+
+	public static void main(String[] args) {
+
+		SpringApplication.run(SpringBootRestDemoApplication.class, args);
+
+		System.out.println("Hello World");
+	}
+
+}
